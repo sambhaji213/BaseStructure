@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textViewItemName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_4"
+            android:layout_marginLeft="@dimen/margin_4"
+            android:layout_marginStart="@dimen/margin_4"
+            android:layout_marginRight="@dimen/margin_4"
+            android:layout_marginEnd="@dimen/margin_4"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textSize="@dimen/textSize_14"
+            android:textColor="@color/black"
+            android:text="Sun glasses glasses"/>
+
+        <TextView
+            android:id="@+id/textViewDiscountPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewItemName"
+            android:layout_marginTop="@dimen/margin_4"
+            android:layout_marginLeft="@dimen/margin_4"
+            android:layout_marginStart="@dimen/margin_4"
+            android:layout_marginRight="@dimen/margin_4"
+            android:layout_marginEnd="@dimen/margin_4"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textSize="@dimen/textSize_14"
+            android:textColor="@color/black"
+            android:text="245.00 SAR" />
+
+        <TextView
+            android:id="@+id/textViewPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewDiscountPrice"
+            android:layout_marginLeft="@dimen/margin_4"
+            android:layout_marginStart="@dimen/margin_4"
+            android:layout_marginRight="@dimen/margin_4"
+            android:layout_marginEnd="@dimen/margin_4"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textSize="@dimen/textSize_12"
+            android:text="434.00 SAR"/>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
